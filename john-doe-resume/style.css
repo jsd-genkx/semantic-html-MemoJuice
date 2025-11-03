@@ -1,0 +1,42 @@
+body {
+    background-color:rgba(242, 45, 111, 0.875);
+}
+
+p {
+    color: rgb(231, 205, 205);
+}
+
+h1 {
+    color: rgb(255, 192, 203);
+}
+
+h2 {
+    color: aliceblue;
+}
+
+h3 {
+    color: rgb(243, 249, 66);
+}
+
+h4 {
+    color: rgb(249, 194, 11);
+}
+
+li {
+    color: bisque;
+}
+
+div.container {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 134, 173, 0.875);
+}
+
+hr {
+     border-color: rgb(99, 255, 203);
+    border-radius: 10cm;
+    -webkit-border-radius: 10cm;
+    -moz-border-radius: 10cm;
+    -ms-border-radius: 10cm;
+    -o-border-radius: 10cm;
+}
+
