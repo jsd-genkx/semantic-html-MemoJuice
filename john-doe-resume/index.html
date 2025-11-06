@@ -4,46 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <img src="https://introduction-to-web-application.vercel.app/profile.jpg" width="200" height="200" />
-    <div>
-    <h1>John Doe</h1>
-    <p>Web Developer</p>
-    </div>
-    <hr>
-    <div>
-        <h2>About Me</h2>
-        <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
-    </div>
-    <hr>
-    <div>
-        <h2>Experience</h2>
-        <h3>Web Developer</h3>
-        <h4>XYZ Company - June 2020 to Present</h4>
-        <ul>
-            <li>Developed responsive websites using HTML, CSS, and JavaScript.</li>
-            <li>Collaborated with team members to implement new features and improve existing ones.</li>
-        </ul>
-    </div>
-    <hr>
-    <div>
-        <h2>Education</h2>
-        <h3>Bachelor of Science in Chemistry</h3>
-        <p>ABC University - Graduated in 2019</p>
-    </div>
-    <hr>
-    <div>
-        <h2>Contact Me</h2>
-        <p>Email: <a href="john.doe@example.com">john.doe@example.com</a></p>
-        <p>Phone: +1234567890</p>
-        <p>LinkedIn: johndoe (<a href="https://www.linkedin.com/in/johndoe">https://www.linkedin.com/in/johndoe</a>)</p>
-    </div>
-    <hr>
-
     <div class="container">
+        <header>
+            <a href="#" class="Logo">MemoJuice</a>
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">Collections</a>
+                <a href="#">Login</a>
+            </nav>
+        </header>
+
+        <section class="home">
+            <div class="img-box">
+                <img src="https://introduction-to-web-application.vercel.app/profile.jpg" width="200" height="200" alt="John">
+            </div>
+            <div class="home-detail">
+                <h1>John Doe</h1>
+                <h2>Web Developer</h2>
+                <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
+            </div>
+        </section>
+
+        <main>
+            <section class="box-1">
+                <div class="colume-1">
+                    <div class="Experience">
+                        <h2>Experience</h2>
+                    </div>
+                    <div class="Web-Developer">
+                        <h3>Web-Developer</h3>
+                        <h4>XYZ Company - June 2020 to Present</h4>
+                    </div>
+                    <ul class="work-detail">
+                        <li>Developed responsive websites using HTML, CSS, and JavaScript.</li>
+                        <li>Collaborated with team members to implement new features and improve existing ones.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="box-2">
+                <div class="colume-2">
+                    <div class="Education">
+                        <h2>Education</h2>
+                    </div>
+                    <div>
+                        <h3>Bachelor of Science in Chemistry</h3>
+                        <h4>ABC University - Graduated in 2019</h4>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <section>
+            <div class="dowload-social">
+                <a href="#" class="btn">Dowload CV</a>
+                <div class="social-icon">
+                    <a href="#"><i class="ri-github-fill"></i></a>
+                    <a href="#"><i class="ri-google-fill"></i></a>
+                    <a href="#"><i class="ri-phone-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </div>
+
+    <!-- <div class="container">
             <label for="uname"><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -58,7 +94,7 @@
 
         <div class="container" style="background-color:white;">
             <span class="psw"><a href="#">Forget password</a></span>
-    </div>
+    </div> -->
 
 </body>
 </html>
